@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+#define rep(i, n) for (int i = 0; i < (n); ++i)
+using namespace std;
+using ll = long long;
+using P = pair<int, int>;
+
+int main()
+{
+    ll a;
+    long double b;
+    cin >> a >> b;
+    ll ans = (ll)(a * b);
+    cout << ans << endl;
+    return 0;
+}
